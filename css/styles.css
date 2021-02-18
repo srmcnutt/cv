@@ -1,0 +1,50 @@
+/* ---------- Tag selectors ----------------*/
+body {
+  background-color: black;
+  color: lightgray;
+}
+
+hr {
+  border-color: #1687a7;
+  border-width: 10px;
+  border-style: dotted none none;
+  width: 10%;
+}
+
+h1 {
+  color: #1687a7;
+}
+
+h3 {
+  color: #1687a7;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+  }
+
+
+/* ---------- class selectors ----------------*/
+/* ---------- can referenced in any tag ------*/
+/* ---------- multiple classes per tag allowed */
+
+.bacon {
+  background-color: green;
+}
+
+.brocoli {
+  background-color: red;
+}
+
+
+/* ---------- ID selectors ----------------*/
+/* ---------  can only be used once per page */
+/* --------- use sparingly ------------*/
+
+#heading {
+  color: blue;
+}
